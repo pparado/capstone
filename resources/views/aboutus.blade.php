@@ -14,219 +14,7 @@
         integrity="sha512-b42SanD3pNHoihKwgABd18JUZ2g9j423/frxIP5/gtYgfBz/0nDHGdY/3hi+3JwhSckM3JLklQ/T6tJmV7mZEw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./aboutus.css">
-    <style>
-        .footer {
-            position: relative;
-            display: block;
-            justify-content: center;
-            align-content: center;
-            background-position: center;
-            background-repeat: no-repeat;
-            bottom: 0;
-            background: rgb(255, 255, 255);
-            background: #ff6d00;
-            color: #f1f1f1;
-            width: 100%;
-            padding: 20px;
-            padding-left: 10px;
-            padding-bottom: 100px;
-            height: 500px;
-            margin-bottom: 0px;
-        }
-
-        .col-md-2 {
-            flex: 0 0 auto;
-            width: 24.666667%;
-        }
-
-        .row {
-            width: auto;
-        }
-
-        .facebook:hover span,
-        .facebook:hover .tooltip,
-        .facebook:hover .tooltip:before {
-            background: #385999;
-            left: 16%;
-        }
-
-        .instagram:hover span,
-        .instagram:hover .tooltip,
-        .instagram:hover .tooltip:before {
-            background: #e1306c;
-            left: 30%;
-        }
-
-        .twitter:hover span,
-        .twitter:hover .tooltip,
-        .twitter:hover .tooltip:before {
-            background: #46C1F6;
-            left: 47%;
-        }
-
-        .google:hover span,
-        .google:hover .tooltip,
-        .google:hover .tooltip:before {
-            background: #4885ed;
-            left: 60%;
-
-        }
-
-        .icon .fa.fa-facebook-f::before {
-            margin-left: 13px;
-        }
-
-        .icon .fa.fa-instagram::before {
-            padding-left: 8px;
-        }
-
-        .icon .fa.fa-twitter::before {
-            padding-left: 8px;
-        }
-
-        .icon .fa.fa-youtube-play::before {
-            padding-left: 8px;
-        }
-
-        .icon .fa.fa-google::before {
-            padding-left: 8px;
-        }
-
-
-        .wrapper .button {
-            display: inline-flex;
-            text-decoration: none;
-            gap: 25px;
-            height: 50px;
-            width: 50px;
-            margin-top: 30px;
-            float: left;
-            margin: 0 5px;
-            overflow: hidden;
-            background: rgb(255, 255, 255);
-            background: linear-gradient(36deg,
-                    rgba(255, 255, 255, 1) 0%,
-                    rgba(255, 209, 129, 0.819765406162465) 58%);
-            border-radius: 50px;
-            cursor: pointer;
-            box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease-out;
-        }
-
-        .wrapper .button:hover {
-            width: 200px;
-            background-color: #ffffff;
-        }
-
-        .wrapper .button .icon {
-            display: inline-block;
-            justify-content: center;
-            height: 50px;
-            width: 50px;
-            text-align: center;
-            border-radius: 70px;
-            line-height: 60px;
-            transition: all 0.3s ease-out;
-        }
-
-        .wrapper .button:nth-child(1):hover .icon {
-            background: #4400ff;
-            padding-right: 15px;
-        }
-
-        .wrapper .button:nth-child(2):hover .icon {
-            background: rgb(64, 93, 230);
-            background: linear-gradient(85deg,
-                    rgba(64, 93, 230, 1) 0%,
-                    rgba(131, 58, 180, 1) 20%,
-                    rgba(253, 29, 29, 1) 50%,
-                    rgba(252, 176, 69, 1) 90%,
-                    rgba(255, 220, 128, 1) 100%);
-            padding-right: 19.5px;
-        }
-
-        .wrapper .button:nth-child(3):hover .icon {
-            background: #1da1f2;
-            padding-right: 10px;
-        }
-
-        .wrapper .button:nth-child(4):hover .icon {
-            background: #fc0303;
-            padding-right: 10px;
-        }
-
-        .wrapper .button:nth-child(5):hover .icon {
-            background: rgb(64, 93, 230);
-            background: linear-gradient(85deg,
-
-                    rgb(35, 189, 14) 15%,
-                    rgb(29, 70, 253) 50%,
-                    rgb(226, 41, 17) 70%,
-                    rgb(255, 251, 0) 100%);
-            padding-right: 19.5px;
-        }
-
-        .wrapper .button .icon i {
-            font-size: 2px;
-            line-height: 53px;
-
-        }
-
-        .wrapper .button span {
-            font-size: 20px;
-            font-weight: 500;
-            line-height: 50px;
-            margin-left: 5px;
-        }
-
-        .container {
-            margin: auto;
-            width: 100%;
-        }
-
-        @import url(//fonts.googleapis.com/css?family=Lato:300:400);
-
-        .footheader {
-            position: relative;
-            text-align: center;
-            background-image: linear-gradient(to right top,
-                    #cc7833,
-                    #c27c2d,
-                    #ca7a39,
-                    #cf7a18,
-                    #f59f3d);
-            color: white;
-        }
-
-        .flex {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-
-        button.btn {
-            border-color: #ffd181;
-            border-radius: 10px;
-            color: #fff;
-        }
-
-        button.btn:hover {
-            border-color: #ffd181;
-            border-radius: 10px;
-            color: #fff;
-            font-weight: bold;
-            background-color: #ff6d00;
-            letter-spacing: 1px;
-        }
-
-        .content {
-            position: relative;
-            height: 20vh;
-            text-align: center;
-            background-color: white;
-        }
-    </style>
+    
 </head>
 
 <body>
@@ -234,113 +22,115 @@
     <img class="aboutusheadpic" src="{{ asset('./images/aboutushead.jpg') }}">
 
     <div class="container-fluid" id="header">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="{{ asset('./images/G5-Logo-B-White-on-Black-Border-V1.png') }}" alt="Logo" width="200" height="100"
-                        class="d-inline-block align-text-top">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="{{('/') }}">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="{{ url(' /carmodel') }}">Vehicles</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{(' /termsandconditions') }}">Terms</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/aboutus') }}">About
-                                Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/contactus') }}">Contact Us</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex mx-auto">
-                        <button type="button" class="btn1 btn-outline-warning btn-lg" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
-                            Login
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="{{ url('/')}}">
+                            <img src="{{ asset('./images/G5-Logo-B-White-on-Black-Border-V1.png') }}" alt="Logo" width="200" height="100"
+                                class="d-inline-block align-text-top">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Members can access
-                                            discounts,
-                                            points and special features.</h1>
-                                        <button type="button" class="btn-close btn-light" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body px-5">
-                                        <form>
-                                            <div class="mb-3 w-100">
-                                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                                    aria-describedby="emailHelp" placeholder="Email">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="{{ url('/')}}">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="{{ url('/carmodel')}}">Vehicles</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url('/terms')}}">Terms</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url('/aboutus') }}">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url('/contactus') }}">Contact Us</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex mx-auto">
+                                <button type="button" class="btn1 btn-outline-warning btn-lg" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Login
+                                </button>
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Members can access
+                                                    discounts,
+                                                    points and special features.</h1>
+                                                <button type="button" class="btn-close btn-light"
+                                                    data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div class="mb-3 w-100">
-                                                <input type="password" class="form-control my-3"
-                                                    id="exampleInputPassword1" placeholder="Password">
-                                            </div>
-                                            <div class="mb-3 form-check">
-                                                <input type="checkbox" class="form-check-input" id="exampleCheck1"
-                                                    checked>
-                                                <label class="form-check-label" for="exampleCheck1">Keep me
-                                                    signed in</label>
-                                            </div>
-                                            <p class="w-100">Selecting this checkbox will keep you signed into
-                                                your account on this device until
-                                                you
-                                                sign out. Do not select this on shared devices.</p>
-                                            <button type="submit" class="btn btn-dark w-75 mx-5">Sign
-                                                in</button>
-                                            <div class="col-9 mx-auto">
-                                                <p class="text-center"><a href="#" class="text-decoration-none"
-                                                        style="color: blue;">Forgot password?</a></p>
-                                            </div>
-                                            <p>Don't have an account? <a href="./signup.html" class="text-decoration-none"
-                                                    style="color: blue;">Create one.</a></p>
-                                            <p>or continue with</p>
-                                            <div class="row mx-5">
-                                                <div type="button" href="#" class="icon facebook col-1">
-                                                    <span><i class="bi bi-facebook"></i></span>
-                                                </div>
-                                                <div type="button" href="#" class="icon instagram col-2">
-                                                    <span><i class="bi bi-instagram"></i></span>
-                                                </div>
-                                                <div type="button" href="#" class="icon twitter col-3">
-                                                    <span><i class="bi bi-twitter"></i></span>
-                                                </div>
-                                                <div type="button" href="#" class="icon youtube col-3">
-                                                    <span><i class="bi bi-youtube"></i></span>
-                                                </div>
-                                                <div type="button" href="#" class="icon google col-4">
-                                                    <span><i class="bi bi-google"></i></span>
-                                                </div>
+                                            <div class="modal-body px-5">
+                                                <form>
+                                                    <div class="mb-3 w-100">
+                                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                                            aria-describedby="emailHelp" placeholder="Email">
+                                                    </div>
+                                                    <div class="mb-3 w-100">
+                                                        <input type="password" class="form-control my-3"
+                                                            id="exampleInputPassword1" placeholder="Password">
+                                                    </div>
+                                                    <div class="mb-3 form-check">
+                                                        <input type="checkbox" class="form-check-input"
+                                                            id="exampleCheck1" checked>
+                                                        <label class="form-check-label" for="exampleCheck1">Keep me
+                                                            signed in</label>
+                                                    </div>
+                                                    <p class="w-100">Selecting this checkbox will keep you signed into
+                                                        your account on this device until
+                                                        you
+                                                        sign out. Do not select this on shared devices.</p>
+                                                    <button type="submit" class="btn btn-dark w-75 mx-5">Sign
+                                                        in</button>
+                                                    <div class="col-9 mx-auto">
+                                                        <p class="text-center"><a href="#" class="text-decoration-none"
+                                                                style="color: blue;">Forgot password?</a></p>
+                                                    </div>
+                                                    <p>Don't have an account? <a href="{{ url('/signup') }}"
+                                                            class="text-decoration-none" style="color: blue;">Create
+                                                            one.</a></p>
+                                                    <p>or continue with</p>
 
+                                                    <div class="row mx-5">
+                                                        <div type="button" href="{{ url('#') }}" class="icon facebook col-1">
+                                                            <span><i class="bi bi-facebook"></i></span>
+                                                        </div>
+                                                        <div type="button" href="{{ url('#') }}" class="icon instagram col-2">
+                                                            <span><i class="bi bi-instagram"></i></span>
+                                                        </div>
+                                                        <div type="button" href="{{ url('#') }}" class="icon twitter col-3">
+                                                            <span><i class="bi bi-twitter"></i></span>
+                                                        </div>
+                                                        <div type="button" href="{{ url('#') }}" class="icon youtube col-3">
+                                                            <span><i class="bi bi-youtube"></i></span>
+                                                        </div>
+                                                        <div type="button" href="{{ url('#') }}" class="icon google col-4">
+                                                            <span><i class="bi bi-google"></i></span>
+                                                        </div>
+
+                                                    </div>
+                                                </form>
                                             </div>
-                                        </form>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <h5><a href="./underconstruction.html"
-                                                class="text-decoration-none justify-left">Feedback</a></h5>
+                                            <div class="modal-footer">
+                                                <h5><a href="{{ url('/underconstruction') }}"
+                                                        class="text-decoration-none justify-left">Feedback</a></h5>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+
+                            </form>
+
                         </div>
-                    </form>
-                </div>
+                </nav>
             </div>
-        </nav>
-    </div>
 
     <div class="container">
         <div class="header">
