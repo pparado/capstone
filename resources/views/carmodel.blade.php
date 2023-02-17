@@ -34,7 +34,7 @@
             </li>
             <li class="nav-item dropdown">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="file:///F:/usb/Kodego/coding/WD30-VOLTES-5/GFive/carmodel.html">Vehicles</a>
+                <a class="nav-link" aria-current="page" href="{{ url('/carmodel.html') }}">Vehicles</a>
               </li>
             <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="file:///F:/usb/Kodego/coding/WD30-VOLTES-5/carmodels/carmodel.html" role="button" data-bs-toggle="dropdown" 
