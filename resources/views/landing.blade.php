@@ -15,7 +15,7 @@
 </head>
 
 <body onload="slider()">
-    <div class="banner">
+     <div class="banner">
         <div class="slider">
             <img src="{{ asset('./images/10.jpg') }}" alt="" id="slideimg" >
         </div>
