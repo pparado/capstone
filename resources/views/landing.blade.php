@@ -89,11 +89,11 @@
                                                     <button type="submit" class="btn btn-dark w-75 mx-5">Sign
                                                         in</button>
                                                     <div class="col-9 mx-auto">
-                                                        <p class="text-center"><a href="{{ url('#) }}" class="text-decoration-none"
+                                                        <p class="text-center"><a href="#" class="text-decoration-none"
                                                                 style="color: blue;">Forgot password?</a></p>
                                                     </div>
-                                                    <p>Don't have an account? <a href="{{ url(' /signup') }}" 
-                                                        class="text-decoration-none" style="color: blue;">Create
+                                                    <p>Don't have an account? <a href="{{ url('/signup') }}"
+                                                            class="text-decoration-none" style="color: blue;">Create
                                                             one.</a></p>
                                                     <p>or continue with</p>
 
