@@ -22,7 +22,7 @@ Route::get('/aboutus', 'AboutusController@index');
 Route::get('/aboutus', function () {
     return view('aboutus');
 });
-
+Route::get('/carmodel', 'CarmodelController@index');
 
 // Auth::routes();
 
