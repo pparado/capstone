@@ -17,12 +17,15 @@ Route::get('/', function () {
     return view('landing');
 });
 
-Route::get('/aboutus', 'AboutusController@index');
+Route::get('/carmodel', 'CarmodelController@index');
+Route::get('/carmodel', function () {
+    return view('carmodel');
+});
 
+Route::get('/aboutus', 'AboutusController@index');
 Route::get('/aboutus', function () {
     return view('aboutus');
 });
-Route::get('/carmodel', 'CarmodelController@index');
 
 // Auth::routes();
 

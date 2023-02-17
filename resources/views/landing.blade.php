@@ -11,11 +11,11 @@
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-</head>
+        <link href="{{ asset('css/landing.css') }}" rel="stylesheet">
+    </head>
 
 <body onload="slider()">
-    <div class="banner">
+     <div class="banner">
         <div class="slider">
             <img src="{{ asset('./images/10.jpg') }}" alt="" id="slideimg" >
         </div>
@@ -23,7 +23,7 @@
             <div class="container-fluid" id="header">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="{{ url('/')}}">
                             <img src="{{ asset('./images/G5-Logo-B-White-on-Black-Border-V1.png') }}" alt="Logo" width="200" height="100"
                                 class="d-inline-block align-text-top">
                         </a>
@@ -41,7 +41,7 @@
                                     <a class="nav-link" aria-current="page" href="{{ url('/carmodel')}}">Vehicles</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ url('/termsandconditions')}}">Terms</a>
+                                    <a class="nav-link" href="{{ url('/terms')}}">Terms</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ url('/aboutus') }}">About Us</a>
