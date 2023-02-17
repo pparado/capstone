@@ -23,7 +23,7 @@
             <div class="container-fluid" id="header">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="{{ url('/')}}">
                             <img src="{{ asset('./images/G5-Logo-B-White-on-Black-Border-V1.png') }}" alt="Logo" width="200" height="100"
                                 class="d-inline-block align-text-top">
                         </a>
