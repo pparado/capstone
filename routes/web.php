@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+Route::get('/landing', 'LandingController@index');
 Route::get('/', function () {
     return view('landing');
 });
@@ -26,6 +26,9 @@ Route::get('/aboutus', 'AboutusController@index');
 Route::get('/aboutus', function () {
     return view('aboutus');
 });
+
+
+
 
 // Auth::routes();
 
