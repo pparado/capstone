@@ -2,9 +2,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;    
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 /* NAVBAR START */
 .navbar-nav {
@@ -16,17 +15,15 @@
     font-size: 17px;
     font-weight: normal;
     letter-spacing: 4px;
-
 }
 
 .nav-item a:hover {
     background: #ff6d00;
     border-radius: 5px;
-    transition: 0.0s;
+    transition: 0s;
 }
 
 .navbar-toggler-icon {
-
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 209, 129, 1429' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
@@ -49,7 +46,7 @@ button {
 }
 
 .btn {
-    background-color: #FF6d00;
+    background-color: #ff6d00;
 }
 
 .btn1 {
@@ -74,7 +71,6 @@ button {
 
 #header.sticky {
     background: black;
-
 }
 
 @media only screen and (max-width: 991px) {
@@ -84,7 +80,6 @@ button {
 }
 
 /* NAVBAR END */
-
 
 /* MODAL START */
 .modal-backdrop {
@@ -129,14 +124,15 @@ button {
     margin: 0 5px;
     overflow: hidden;
     background: rgb(255, 255, 255);
-    background: linear-gradient(36deg,
-            rgba(255, 255, 255, 1) 0%,
-            rgba(255, 209, 129, 0.819765406162465) 58%);
+    background: linear-gradient(
+        36deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 209, 129, 0.819765406162465) 58%
+    );
     border-radius: 50px;
     cursor: pointer;
     box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-out;
-
 }
 
 .modal .button:hover {
@@ -154,18 +150,18 @@ button {
     margin: 5px 13px;
 }
 .modal .icon .bi-facebook {
-color: #385999;
-background: #ffd181;
+    color: #385999;
+    background: #ffd181;
 }
 
 .modal .icon .bi-instagram {
-color: #e1306c;
-background: #ffd181;
+    color: #e1306c;
+    background: #ffd181;
 }
 
 .modal .icon .bi-twitter {
-color: #46C1F6;
-background: #ffd181;
+    color: #46c1f6;
+    background: #ffd181;
 }
 
 .modal .icon .bi-youtube {
@@ -178,12 +174,7 @@ background: #ffd181;
     background: #ffd181;
 }
 
-
-
 /* MODAL END */
-
-
-
 
 .banner {
     width: 100%;
@@ -283,8 +274,6 @@ span {
     font-weight: bold;
     font-size: 16px;
     color: #ff6d00;
-
-
 }
 
 .rentnow button {
@@ -293,7 +282,6 @@ span {
     padding: 0px;
     border-radius: 12px;
     letter-spacing: 3px;
-
 }
 
 .btn-1 {
@@ -345,7 +333,7 @@ span {
 .twitter:hover span,
 .twitter:hover .tooltip,
 .twitter:hover .tooltip:before {
-    background: #46C1F6;
+    background: #46c1f6;
     left: 47%;
 }
 
@@ -354,7 +342,6 @@ span {
 .google:hover .tooltip:before {
     background: #4885ed;
     left: 60%;
-
 }
 
 .icon .fa.fa-facebook-f::before {
@@ -377,7 +364,6 @@ span {
     padding-left: 8px;
 }
 
-
 .wrapper .button {
     display: inline-flex;
     text-decoration: none;
@@ -389,9 +375,11 @@ span {
     margin: 0 5px;
     overflow: hidden;
     background: rgb(255, 255, 255);
-    background: linear-gradient(36deg,
-            rgba(255, 255, 255, 1) 0%,
-            rgba(255, 209, 129, 0.819765406162465) 58%);
+    background: linear-gradient(
+        36deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 209, 129, 0.819765406162465) 58%
+    );
     border-radius: 50px;
     cursor: pointer;
     box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1);
@@ -421,12 +409,14 @@ span {
 
 .wrapper .button:nth-child(2):hover .icon {
     background: rgb(64, 93, 230);
-    background: linear-gradient(85deg,
-            rgba(64, 93, 230, 1) 0%,
-            rgba(131, 58, 180, 1) 20%,
-            rgba(253, 29, 29, 1) 50%,
-            rgba(252, 176, 69, 1) 90%,
-            rgba(255, 220, 128, 1) 100%);
+    background: linear-gradient(
+        85deg,
+        rgba(64, 93, 230, 1) 0%,
+        rgba(131, 58, 180, 1) 20%,
+        rgba(253, 29, 29, 1) 50%,
+        rgba(252, 176, 69, 1) 90%,
+        rgba(255, 220, 128, 1) 100%
+    );
     padding-right: 19.5px;
 }
 
@@ -442,19 +432,19 @@ span {
 
 .wrapper .button:nth-child(5):hover .icon {
     background: rgb(64, 93, 230);
-    background: linear-gradient(85deg,
-
-            rgb(35, 189, 14) 15%,
-            rgb(29, 70, 253) 50%,
-            rgb(226, 41, 17) 70%,
-            rgb(255, 251, 0) 100%);
+    background: linear-gradient(
+        85deg,
+        rgb(35, 189, 14) 15%,
+        rgb(29, 70, 253) 50%,
+        rgb(226, 41, 17) 70%,
+        rgb(255, 251, 0) 100%
+    );
     padding-right: 19.5px;
 }
 
 .wrapper .button .icon i {
     font-size: 2px;
     line-height: 53px;
-
 }
 
 .wrapper .button span {
@@ -474,12 +464,14 @@ span {
 .footheader {
     position: relative;
     text-align: center;
-    background-image: linear-gradient(to right top,
-            #cc7833,
-            #c27c2d,
-            #ca7a39,
-            #cf7a18,
-            #f59f3d);
+    background-image: linear-gradient(
+        to right top,
+        #cc7833,
+        #c27c2d,
+        #ca7a39,
+        #cf7a18,
+        #f59f3d
+    );
     color: white;
 }
 
