@@ -261,7 +261,7 @@
                                 Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/contactus') }}">Contact Us</a>
+                            <a class="nav-link" href="{{ url('/contactus') }}"> Contact Us</a>
                         </li>
                     </ul>
                     <form class="d-flex mx-auto">
